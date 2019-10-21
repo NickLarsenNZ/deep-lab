@@ -4,4 +4,13 @@ _All required Python Libraries for roof material classification using aerial ima
 
 ## How to build
 
-_docker build -t mything_
+```sh
+docker build -t lab .
+```
+
+## Run
+
+```sh
+PORT=8999
+docker run --rm -v $HOME/notebooks:/data:rw -p $PORT:8080 -e EXTERNAL_PORT=$PORT lab
+```

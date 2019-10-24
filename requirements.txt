@@ -1,5 +1,6 @@
 tensorflow==1.14.*
 keras==2.2.*
+numpy==1.17.*
 ipywidgets==7.5.*
 pandas==0.24.*
 numexpr==2.6.*
@@ -18,9 +19,12 @@ dask==1.1.*
 numba==0.42.*
 bokeh==1.0.*
 sqlalchemy==1.3.*
-hdf5==2.10.*
-h5py==2.9.*
+h5py==2.10.*
 vincent==0.4.*
 beautifulsoup4==4.7.*
 protobuf==3.7.*
 xlrd==1.2.*
+opencv-contrib-python==4.1.*
+postgis==1.0.*
+lightgbm==2.3.*
+geographiclib==1.50

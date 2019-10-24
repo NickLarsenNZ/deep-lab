@@ -1,4 +1,4 @@
-FROM nicklarsennz/jupyter-base:latest
+FROM nicklarsennz/jupyter-base:2.0.0
 USER root
 
 ENV CPLUS_INCLUDE_PATH=/usr/include/gdal
